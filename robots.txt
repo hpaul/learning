@@ -1,1 +1,1 @@
-Sitemap: https://hpaul.github.io/learning/sitemap.xml
+Sitemap: https://paul.fitss.ro/sitemap.xml
