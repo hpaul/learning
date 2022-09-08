@@ -1,11 +1,14 @@
 ---
 layout: page
-title: About Me
-permalink: /about/
+title: Despre
+permalink: /despre/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Pana la o urmatoare completare, pentru orice intrebari puteti sa imi scrieti aici [paul@fitss.ro](paul@fitss.ro).
+In curand....
 
 
+Creat folosind **[fastpages](https://github.com/fastai/fastpages)** [^1]!
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+
+[^1]:o platforma ce suporta nativ jurnale Juypter impreuna cu alte formate.
