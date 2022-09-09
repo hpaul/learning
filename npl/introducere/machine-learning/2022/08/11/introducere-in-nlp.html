@@ -137,32 +137,20 @@ window.onload = wrap_img;
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Pentru a rula exemplele din următoarele paragrafe, vei avea nevoie de python instalat, în funție de sistemul de operare poți găși (resurse aici)[<a href="https://wiki.python.org/moin/BeginnersGuide/Download">https://wiki.python.org/moin/BeginnersGuide/Download</a>]. Și voi presupune că cititorii mei au cunoștiinte de bază de programare. Dacă nu, și dorești o introducere în programare, te rog să îmi scrii modul în care asimilezi tu cunoștiinte cel mai bine și voi încerca să revin cu mai multe resurse.</p>
+<p>Pentru a rula exemplele din următoarele paragrafe, vei avea nevoie de python instalat, în funție de sistemul de operare poți găși <a href="https://wiki.python.org/moin/BeginnersGuide/Download">resurse aici</a>. Și voi presupune că cititorii mei au cunoștiinte de bază de programare. Dacă nu, și dorești o introducere în programare, te rog să îmi scrii modul în care asimilezi tu cunoștiinte cel mai bine și voi încerca să revin cu mai multe resurse.</p>
 
 </div>
 </div>
 </div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Rețelele</span> <span class="n">neuronale</span> <span class="n">artificiale</span> <span class="n">nu</span> <span class="n">sunt</span> <span class="n">o</span> <span class="n">invenție</span> <span class="n">din</span> <span class="n">ultimii</span> <span class="n">ani</span><span class="p">,</span> <span class="n">noțiunea</span> <span class="n">de</span> <span class="n">calculator</span> <span class="n">ce</span> <span class="n">poate</span> <span class="n">gândi</span> <span class="n">singur</span> <span class="p">(</span><span class="n">a</span> <span class="n">apărut</span> <span class="n">în</span> <span class="n">jurul</span> <span class="n">anilor</span> <span class="s1">&#39;50)[https://en.wikipedia.org/wiki/History_of_artificial_neural_networks], când doi cercetători au propus ideea de a simula inteligența într-un calculator plecând de la aceeași baza ca și creierul nostru. Neuronul funcționează doar în tandem cu alți neuroni, el va reține doar o mică parte din informația completă, și deși contribuie doar puțin, rețeaua întregă nu poate funcționa fără el, ori va avea probleme. O altă calitate foarte importantă a neuronului este că acesta poate foarte ușor să-și interschimbe informațiile cu alți neuroni din rețea.</span>
-
-<span class="n">Acesta</span> <span class="n">poate</span> <span class="n">primii</span> <span class="n">date</span> <span class="n">dintr</span><span class="o">-</span><span class="n">o</span> <span class="n">singură</span> <span class="n">sursă</span> <span class="p">(</span><span class="nb">input</span><span class="p">),</span> <span class="n">le</span> <span class="n">va</span> <span class="n">transformă</span> <span class="n">intern</span> <span class="p">(</span><span class="n">în</span> <span class="n">funcție</span> <span class="n">de</span> <span class="n">parametri</span> <span class="n">locali</span> <span class="n">și</span> <span class="n">globali</span><span class="p">)</span> <span class="n">iar</span> <span class="n">apoi</span> <span class="n">va</span> <span class="n">trimite</span> <span class="n">aceste</span> <span class="n">date</span> <span class="n">mai</span> <span class="n">departe</span><span class="p">,</span> <span class="n">altor</span> <span class="n">surse</span> <span class="p">(</span><span class="n">output</span><span class="p">)</span><span class="o">.</span> 
-
-<span class="n">Există</span> <span class="n">mai</span> <span class="n">multe</span> <span class="n">proprietăți</span> <span class="n">dar</span> <span class="n">în</span> <span class="n">principiu</span> <span class="n">definiția</span> <span class="n">lui</span> <span class="n">este</span> <span class="n">simplă</span> <span class="n">și</span> <span class="n">cuprinzătoare</span><span class="o">.</span> <span class="n">Pus</span> <span class="n">singur</span> <span class="n">într</span><span class="o">-</span><span class="n">un</span> <span class="n">contex</span> <span class="n">acesta</span> <span class="n">nu</span> <span class="n">face</span> <span class="n">nimic</span><span class="p">,</span> <span class="n">dar</span> <span class="n">împreună</span> <span class="n">cu</span> <span class="n">alți</span> <span class="n">neuroni</span> <span class="n">formează</span> <span class="n">rețea</span><span class="p">;</span> <span class="n">cu</span> <span class="n">cât</span> <span class="n">capacitatea</span> <span class="n">acesteia</span> <span class="n">crește</span><span class="p">,</span> <span class="n">cu</span> <span class="n">atât</span> <span class="n">această</span> <span class="n">surprinde</span> <span class="n">mai</span> <span class="n">multe</span> <span class="n">legături</span> <span class="n">și</span> <span class="n">specificități</span> <span class="n">din</span> <span class="n">câmpul</span> <span class="n">datelor</span> <span class="n">cu</span> <span class="n">care</span> <span class="n">a</span> <span class="n">fost</span> <span class="n">antrenată</span><span class="o">.</span>  
-</pre></div>
-
-    </div>
-</div>
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Rețelele neuronale artificiale nu sunt o invenție din ultimii ani, noțiunea de calculator ce poate gândi singur <a href="https://en.wikipedia.org/wiki/History_of_artificial_neural_networks">a apărut în jurul anilor '50</a>, când doi cercetători au propus ideea de a simula inteligența într-un calculator plecând de la aceeași baza ca și creierul nostru. Neuronul funcționează doar în tandem cu alți neuroni, el va reține doar o mică parte din informația completă, și deși contribuie doar puțin, rețeaua întregă nu poate funcționa fără el, ori va avea probleme. O altă calitate foarte importantă a neuronului este că acesta poate foarte ușor să-și interschimbe informațiile cu alți neuroni din rețea.</p>
+<p>Acesta poate primii date dintr-o singură sursă (input), le va transformă intern (în funcție de parametri locali și globali) iar apoi va trimite aceste date mai departe, altor surse (output).</p>
+<p>Există mai multe proprietăți dar în principiu definiția lui este simplă și cuprinzătoare. Pus singur într-un contex acesta nu face nimic, dar împreună cu alți neuroni formează rețea; cu cât capacitatea acesteia crește, cu atât această surprinde mai multe legături și specificități din câmpul datelor cu care a fost antrenată.</p>
 
 </div>
-    
-
+</div>
+</div>
 </div>
 
 
